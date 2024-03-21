@@ -1,0 +1,15 @@
+main = "./src/index.ts" # Don't modify this
+compatibility_date = "2023-05-18" # Don't change this either
+
+name = "discord-message-formatter" # Name of the CF function
+
+[vars]
+USERNAME = "" # Username that is visible in the Discord message
+WEBHOOK_URL = "https://discord.com/api/webhooks/YOUR-WEBHOOK-HERE"
+PROJECT_NAME = "" # Visible on the form page
+PASSWORD = "1234"
+TITLE_PLACEHOLDER = "Update Name"
+PRETITLE_PLACEHOLDER = "Version"
+EMBED_COLOR = "1752220" # Uses a decimal color value
+TURNSTILE_SITEKEY = "1x00000000000000000000AA"
+TURNSTILE_SECRET = "1x0000000000000000000000000000000AA"

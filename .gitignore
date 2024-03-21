@@ -1,0 +1,11 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore bun lockfile
+bun.lockb
+
+# Don't include wrangler junk
+.wrangler/
+
+# Don't include sensitive wrangler info
+wrangler.toml
